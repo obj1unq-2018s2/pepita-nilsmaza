@@ -26,6 +26,10 @@ object pepita {
 		// ... completar este metodo con las otra acciones sobre self
 	}
 	
+	method llegadaAComer(){
+		self.comer(alpiste,5)
+	}
+	
 	method haceLoQueQuieras() { 
 		if (self.estaDebil()) { self.comer(alcaucil,10) }
 		} 
