@@ -30,12 +30,14 @@ object sorgo {
 // despues, agregar mijo y canelones
 
 object mijo{
+	// TODO No es lo pedido
 	method energiaPorGramo(){
 		return 5
 	}
 }
 
 object canelones{
+	// TODO No es lo pedido
 	method energiaPorGramo(){
 		return 50
 	}

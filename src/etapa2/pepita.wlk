@@ -10,6 +10,7 @@ object pepita {
 	method volar(kms) { energia -= kms + 10 }
 	
 	// metodos nuevos
+	// TODO No implementado
 	method estaDebil() { return true }  // implementar
 	method estaFeliz() { return true }  // implementar
 	method estaEnojado() { return true }
@@ -30,10 +31,12 @@ object pepita {
 		self.comer(alpiste,5)
 	}
 	
+	// TODO No responde a lo pedido. 
 	method haceLoQueQuieras() { 
 		if (self.estaDebil()) { self.comer(alcaucil,10) }
 		} 
 		
+	// TODO No responde a lo pedido. Esto debería ocurrir dentro de #haceLoQueQuieras
 	method cuandoEstaFeliz(){
 		if(self.estaFeliz()){ self.salirAComer()	}
 		else{
@@ -41,6 +44,7 @@ object pepita {
 		}
 	}
 	
+	// TODO ¿Y esto?
 	method cuandoEstaEnojada(){
 		if(self.estaEnojado()){ self.volar(100) }
 	}
